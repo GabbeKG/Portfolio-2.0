@@ -75,7 +75,7 @@ const Projects = ({currentProject, setCurrentProject}) => {
                             
                         wrapperClass="htmlScreen"
                         distanceFactor={ 1.17 }
-                        position={ [ -1.43, 3.22, -1.55 ] }
+                        position={ [ -1.5, 2.68, -1.55 ] }
                         rotation-x={ - 0.256 }
                         >
                              
@@ -106,10 +106,10 @@ const Projects = ({currentProject, setCurrentProject}) => {
                         transform
                         wrapperClass="htmlScreen"
                         distanceFactor={ 1.17 }
-                        position={ [ .157, 1.68, .1  ] }
+                        position={ [ .157, 1.419, .1  ] }
                         rotation-x={  0 }
                         >
-                        <iframe style={{borderRadius:'75px', touchAction:'auto', zIndex:1}} width={530} height={1100} src={projects[currentProject].url} />
+                        <iframe style={{borderRadius:'75px', touchAction:'auto', zIndex:1}} width={530} height={1110} src={projects[currentProject].url} />
                     </Html>
                 </primitive>
                         </PresentationControls>
