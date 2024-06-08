@@ -1,0 +1,55 @@
+@font-face {
+  font-family: FFFFORWARD;
+  src: url(/fonts/FFFFORWA.TTF) format('trueType');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  margin: 0;
+  padding: 0;
+  max-width:100vw;
+ 
+ 
+ 
+}
+.vertical-timeline-element-content p{
+  font-size: 1.25rem !important;
+  font-family: monospace !important;
+}
+#mug canvas{
+  height: 50vh;
+}
+
+nav .bg-primary{
+  
+  transform:translateY(100%);
+  transition: transform 0.5s ease-in;
+}
+nav ul li a{
+  font-family: FFFFORWARD;
+}
+.avatarScrollVisible{
+  position: absolute;
+  
+  
+  transform: translateY(195%);
+  transition: transform 0.5s ease-in;
+}
+.ropeVisible{
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in;
+}
+.ropeHidden{
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.tooltipText:hover{
+  transform: translateY(195%);
+  transition: transform 0.5s ease-in;
+  visibility: visible;
+  position: relative;
+}
