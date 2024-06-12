@@ -24,8 +24,8 @@ const ShowCase = () => {
 
         <h2 className='text-[2rem] text-center'>
                     { projects[currentProject].title}</h2>
-                <p className='font-mono text-[1.75rem] mx-auto mt-10  w-[40vw] z-50'>{projects[currentProject].description}</p>
-                <p className='font-mono text-[1.75rem] my-[2rem] w-[50vw] mx-auto pl-12'>Check the live version <a href={projects[currentProject].url}>here!</a></p>
+                <p className='font-mono text-[1.35rem] mx-auto mt-10  w-[40vw] z-50 ' >{projects[currentProject].description}</p>
+                <p className='font-mono text-[1.35rem] my-[2rem] w-[50vw] mx-auto pl-12'>Check the live version <a className='text-pink-500' href={projects[currentProject].url}>here!</a></p>
                 </div>
             <div className='relative mt-[2rem] flex  z-50 w-[40vw] justify-around'>
 <button id="prevBtn" className='text-[#D89340]' onClick={handlePrev}>Previous</button>

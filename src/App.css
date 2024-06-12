@@ -15,6 +15,9 @@ html, body{
  
  
 }
+*{
+  max-width: 99vw;
+}
 .vertical-timeline-element-content p{
   font-size: 1.25rem !important;
   font-family: monospace !important;
