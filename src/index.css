@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  
   line-height: 1.1;
 }
 
@@ -48,6 +48,21 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (min-width< 640px) {
+  .vertical-timeline-element-icon{
+    max-width: 20px !important;
+    height: 20px;
+  }
+  .vertical-timeline::before{
+    left: 10px!important;
+  }
+  .vertical-timeline-content p{
+    margin: 1rem 2rem 0 !important;
+    max-width: 50vw !important;
+  }
+  
 }
 
 @media (prefers-color-scheme: light) {

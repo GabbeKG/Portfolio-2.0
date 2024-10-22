@@ -13,7 +13,7 @@ const Cubes = (props) => {
     
             
         <mesh>
-            <circleGeometry args={[3]} />
+            <boxGeometry args={[3,3,3.5]} />
             <meshPhongMaterial color={'#DD93FD'} />
 
    </mesh>
